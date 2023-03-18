@@ -891,6 +891,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@openzeppelin/contracts@npm:^4.8.2":
+  version: 4.8.2
+  resolution: "@openzeppelin/contracts@npm:4.8.2"
+  checksum: 1d362f0b9c880549cb82544e23fb70270fbbbe24a69e10bd5aa07649fd82347686173998ae484defafdc473d04004d519f839e3cd3d3e7733d0895b950622243
+  languageName: node
+  linkType: hard
+
 "@scure/base@npm:~1.1.0":
   version: 1.1.1
   resolution: "@scure/base@npm:1.1.1"
@@ -3487,9 +3494,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat@npm:^2.12.7":
-  version: 2.12.7
-  resolution: "hardhat@npm:2.12.7"
+"hardhat@npm:^2.13.0":
+  version: 2.13.0
+  resolution: "hardhat@npm:2.13.0"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@metamask/eth-sig-util": ^4.0.0
@@ -3550,8 +3557,8 @@ __metadata:
     typescript:
       optional: true
   bin:
-    hardhat: internal/cli/cli.js
-  checksum: d1f86c09f3db1cc67a448214ebf67a15fc980304ad892ca90792bba679c887a23d8bc2006daf301f4106d638230229dc1ddbc5ba363b1c6aa6b361064f0d7aec
+    hardhat: internal/cli/bootstrap.js
+  checksum: a69813120e5e8f05cefb9ae9c7ff2e2fd06aa8802baf6bb81778810b3ea879d6cb31f04c5719ebe6c0289cc2bd72d1e1f00d65afcf1a049ed3130c35025046e1
   languageName: node
   linkType: hard
 
@@ -5306,6 +5313,7 @@ __metadata:
     "@nomicfoundation/hardhat-toolbox": ^2.0.0
     "@nomiclabs/hardhat-ethers": ^2.0.0
     "@nomiclabs/hardhat-etherscan": ^3.0.0
+    "@openzeppelin/contracts": ^4.8.2
     "@typechain/ethers-v5": ^10.1.0
     "@typechain/hardhat": ^6.1.2
     "@types/chai": ^4.2.0
@@ -5313,9 +5321,10 @@ __metadata:
     "@types/node": ">=12.0.0"
     chai: ^4.2.0
     ethers: ^5.4.7
-    hardhat: ^2.12.7
+    hardhat: ^2.13.0
     hardhat-gas-reporter: ^1.0.8
     mocha: ^10.2.0
+    random-words: ^1.3.0
     solidity-coverage: ^0.8.0
     ts-node: ">=8.0.0"
     typechain: ^8.1.0
@@ -5383,6 +5392,15 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
+  languageName: node
+  linkType: hard
+
+"random-words@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "random-words@npm:1.3.0"
+  dependencies:
+    seedrandom: ^3.0.5
+  checksum: d88733816b81651b7ea23e4ce1f305ce7d350ae470d5fd6219a3a672d9468255b16522716f89cd3519e577029e9872c99b26bddb3f1b8ac34698a0b7f02bbee4
   languageName: node
   linkType: hard
 
@@ -5804,6 +5822,13 @@ __metadata:
     node-gyp: latest
     node-gyp-build: ^4.2.0
   checksum: 21e219adc0024fbd75021001358780a3cc6ac21273c3fcaef46943af73969729709b03f1df7c012a0baab0830fb9a06ccc6b42f8d50050c665cb98078eab477b
+  languageName: node
+  linkType: hard
+
+"seedrandom@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "seedrandom@npm:3.0.5"
+  checksum: 728b56bc3bc1b9ddeabd381e449b51cb31bdc0aa86e27fcd0190cea8c44613d5bcb2f6bb63ed79f78180cbe791c20b8ec31a9627f7b7fc7f476fd2bdb7e2da9f
   languageName: node
   linkType: hard
 
